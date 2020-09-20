@@ -1,0 +1,53 @@
+.Row {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+.Row .code {
+    flex-grow: 1;
+    width: 10%;
+    color: blue;
+    align-items: center;
+}
+.Row .company {
+    flex-grow: 1;
+    word-wrap: break-word;
+    width: 30%;
+    color: rgb(114, 114, 114);
+}
+.Row .price {
+    flex-grow: 1;
+    width: 10%;
+    font-weight: 500;
+}
+.Row .value {
+    flex-grow: 1;
+    width: 20%;
+    font-weight: 500;
+}
+.Row .change {
+    flex-grow: 1;
+    width: 15%;
+}
+.Row .percent-change {
+    flex-grow: 1;
+    width: 15%;
+}
+.Row div {
+    padding: 0.5em;
+    font-size: 0.8em;
+    display: flex;
+}
+.text-alight-right{
+    justify-content: flex-end;
+    align-items: center;
+}
+.red {
+    color: red;
+}
+.green {
+    color: rgb(70, 228, 70);
+}
+.title {
+    color: rgb(180, 180, 180) !important;
+}

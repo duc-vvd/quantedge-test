@@ -1,0 +1,29 @@
+.Header {
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    background-color: #44b4d1;
+}
+.Header div {
+    display: flex;
+    align-items: center;
+}
+.Header div:first-child {
+    flex-grow: 1;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 0.5em;
+}
+.Header .btn-header {
+    box-sizing: border-box;
+    height: 2.4em;
+    padding: 0 1em;
+    font-size: 0.8em;
+}
+.Header .btn-header:hover {
+    background-color: #1ba8cd;
+    border-bottom: 3px solid red;
+}
+.active-btn {
+    border-bottom: 3px solid red;
+}

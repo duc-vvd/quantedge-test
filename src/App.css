@@ -1,0 +1,6 @@
+.App {
+  box-sizing: border-box;
+  font-size: calc(10px + 2vmin);
+  padding: 0.7rem;
+  width: 100%;
+}
